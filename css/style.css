@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+header {
+  color: #fff;
+}
+header .container {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../assets/images/background.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 35px 8% 0;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+header .container nav .logo {
+  font-size: 40px;
+}
+
+header .container nav .logo span {
+  color: red;
+}
+
+header .container nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header .container nav ul li {
+  list-style: none;
+  margin: 10px 15px;
+}
+
+header .container nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+header .container nav ul li a:hover {
+  color: red;
+}
+
+header .container nav .buttons .login {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  background: #000;
+  padding: 9px 25px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+header .container nav .buttons .login:hover {
+  background: red;
+}
+
+header .container .content {
+  margin-top: 12%;
+  max-width: 600px;
+}
+
+header .container .content h3 {
+  font-size: 55px;
+}
+
+header .container .content p {
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+header .container .link {
+  margin-top: 30px;
+}
+
+header .container .link a {
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+  padding: 9px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+header .container .link a:hover {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+/* login page */
+.mainLogin {
+  background: #1abc9c;
+  overflow: hidden;
+}
+.containerLogin{
+max-width: 440px;
+padding: 0 20px ;
+margin: 170px auto;
+}
+.wrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+}
+.wrapper .title {
+  line-height: 90px;
+  background: #16a085;
+  padding-left: 20px;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+.wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .rowLogin {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .rowLogin input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.wrapper form .rowLogin input:focus {
+  background-color: #16a085;
+  box-shadow:inset 0px 0px 2px 2px rgba(26, 168, 156, 0.25);
+}
+.wrapper form .rowLogin i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  font-size: 18px;
+  color: #fff;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass {
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a {
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+
+.wrapper form .buttons input {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+.wrapper form .buttons input:hover {
+  background: #12876f;
+}
+
+.wrapper form .signUp {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper form .signUp a {
+  color: #16a085;
+  text-decoration: none;
+}
+.wrapper form .signUp a:hover {
+  text-decoration: underline;
+}
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+/* Register page */
+.hero_reg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background: rgb(130, 106, 251);
+}
+.container_Regi {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container_Regi header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container_Regi .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus,
+.input-box input:invalid {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+
+.form .gender-box {
+  margin-top: 20px;
+}
+
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form .gender-option {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.form .gender {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.addres :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  background-color: rgb(130, 106, 251);
+}
+.form button:hover {
+  background-color: rgb(88, 56, 250);
+}
+.loginPage {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.loginPage a {
+  color: rgb(130, 106, 251);;
+  text-decoration: none;
+}
+.loginPage a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 900px) {
+  header .container {
+    padding: 25px 5% 0;
+  }
+
+  header .container nav {
+    gap: 10px;
+  }
+
+  header .container nav .logo {
+    font-size: 30px;
+  }
+
+  header .container nav ul li {
+    margin: 5px 7px;
+  }
+
+  header .container nav ul li a {
+    font-size: 14px;
+  }
+
+  header .container nav .buttons .login {
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+  header .container .content {
+    margin-top: 15%;
+  }
+
+  header .container .content h3 {
+    font-size: 45px;
+  }
+
+  header .container .content p {
+    font-size: 14px;
+  }
+
+  header .container .link {
+    margin-top: 25px;
+  }
+  .hero_reg {
+    padding: 25px 15px;
+  }
+
+  .container_Regi {
+    max-width: 650px;
+    padding: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  header .container {
+    min-height: 750px;
+    padding: 15px 5%;
+  }
+
+  header .container nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  header .container nav .logo {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  header .container nav ul {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  header .container nav ul li {
+    margin: 4px 5px;
+  }
+
+  header .container nav ul li a {
+    font-size: 12px;
+  }
+
+  header .container nav .buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  header .container nav .buttons .login {
+    display: inline-block;
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+
+  header .container .content {
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  header .container .content h3 {
+    font-size: 38px;
+  }
+
+  header .container .content p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  header .container .link {
+    margin-top: 25px;
+  }
+
+  header .container .link a {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  /* register page */
+  .hero_reg {
+    padding: 20px 10px;
+  }
+
+  .container_Regi {
+    width: 100%;
+    padding: 18px;
+    border-radius: 6px;
+  }
+
+  .container_Regi header {
+    font-size: 1.3rem;
+  }
+
+  .container_Regi .form {
+    margin-top: 20px;
+  }
+
+  .form .column {
+    flex-direction: column;
+    column-gap: 0;
+  }
+
+  .form .column .input-box {
+    width: 100%;
+  }
+
+  .form .gender-option {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .form .gender {
+    display: flex;
+    align-items: center;
+  }
+
+  .gender label {
+    font-size: 14px;
+  }
+
+  .form :where(.input-box input, .select-box) {
+    height: 45px;
+    font-size: 0.9rem;
+  }
+
+  .input-box label {
+    font-size: 14px;
+  }
+
+  .form button {
+    height: 50px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 300px) {
+  header .container {
+    min-height: 700px;
+    padding: 10px 4%;
+  }
+
+  header .container nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  header .container nav .logo {
+    font-size: 25px;
+  }
+
+  header .container nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+
+  header .container nav ul li {
+    margin: 3px;
+  }
+
+  header .container nav ul li a {
+    font-size: 9px;
+  }
+
+  header .container nav .buttons .login {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
+
+  header .container .content {
+    margin-top: 60px;
+  }
+
+  header .container .content h3 {
+    font-size: 28px;
+  }
+
+  header .container .content p {
+    font-size: 10px;
+    line-height: 17px;
+  }
+
+  header .container .link {
+    margin-top: 20px;
+  }
+
+  header .container .link a {
+    font-size: 11px;
+    padding: 6px 14px;
+  }
+  /* Register page */
+  .hero_reg {
+    padding: 10px 5px;
+  }
+
+  .container_Regi {
+    padding: 14px;
+  }
+
+  .container_Regi header {
+    font-size: 1.1rem;
+  }
+
+  .form .input-box {
+    margin-top: 15px;
+  }
+
+  .input-box label {
+    font-size: 12px;
+  }
+
+  .form :where(.input-box input, .select-box) {
+    height: 42px;
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .form .gender-option {
+    gap: 15px;
+  }
+
+  .gender label {
+    font-size: 12px;
+  }
+
+  .form button {
+    height: 45px;
+    font-size: 13px;
+  }
+}

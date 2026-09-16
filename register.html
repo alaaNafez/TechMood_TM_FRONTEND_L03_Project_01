@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/profile.jpg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <section class="hero_reg">
+      <div class="container_Regi">
+        <header>Register Form</header>
+        <form action="#" class="form">
+          <div class="input-box">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              placeholder="Enter full name"
+              required
+              id="fullName"
+              name="fullName"
+            />
+          </div>
+          <div class="input-box">
+            <label for="emailAddress">Email Address</label>
+            <input
+              type="email"
+              placeholder="Enter Email Address"
+              required
+              id="emailAddress"
+              name="emailAddress"
+            />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Enter password"
+                required
+                id="password"
+                name="password"
+              />
+            </div>
+            <div class="input-box">
+              <label for="passwordConfirm">password Confirm</label>
+              <input
+                type="password"
+                placeholder="Enter password Confirm"
+                required
+                name="passwordConfirm"
+                id="passwordConfirm"
+              />
+            </div>
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label for="phoneNumber">Phone Number</label>
+              <input
+                type="number"
+                placeholder="Enter Phone Number"
+                required
+                id="phoneNumber"
+                name="phoneNumber"
+              />
+            </div>
+            <div class="input-box">
+              <label for="birthDate">Birth Date</label>
+              <input
+                type="date"
+                placeholder="Enter Birth Date"
+                required
+                name="birthDate"
+                id="birthDate"
+              />
+            </div>
+          </div>
+          <div class="gender-box">
+            <h3>Gender</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" />
+                <label for="check-male">Male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-female" name="gender" />
+                <label for="check-female">Female</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-box addres">
+            <label for="">Address</label>
+            <input type="text" placeholder="Enter street address" required />
+            <input type="text" placeholder="Enter street address line2" />
+            <input type="text" placeholder="Enter your city" required />
+            <div class="column">
+              <div class="select-box">
+                <select name="" id="">
+                  <option value="">Country</option>
+                  <option value="">America</option>
+                  <option value="">Japan</option>
+                  <option value="">India</option>
+                  <option value="">Nepal</option>
+                </select>
+              </div>
+            </div>
+            <div class="column">
+              <input type="text" placeholder="Enter your region" required />
+              <input type="number" placeholder="Enter postal code" />
+            </div>
+          </div>
+          <button>submit</button>
+          <div class="loginPage">You already a member?
+            <a href="login.html">Log in</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
