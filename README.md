@@ -1,0 +1,26 @@
+Portfolio Website
+
+A responsive portfolio website built using HTML and CSS.
+
+Pages
+
+- Home
+- Login
+- Register
+
+Technologies
+
+- HTML
+- CSS
+
+Features
+
+- Responsive design
+- User-friendly interface
+- Simple navigation
+- Login form
+- Registration form
+
+Screenshot
+
+"Website Screenshot" (./assets/images/screenshot.png)
