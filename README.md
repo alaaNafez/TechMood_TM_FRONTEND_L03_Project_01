@@ -21,10 +21,6 @@ Features
 - Login form
 - Registration form
 
-Screenshot
-
-"Website Screenshot" (./assets/images/screenshot.png)
-
 Live Demo
 
 "View Website" (https://github.com/alaaNafez/TechMood_TM_FRONTEND_L03_Project_01)
