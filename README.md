@@ -23,4 +23,4 @@ Features
 
 Live Demo
 
-"View Website" (https://github.com/alaaNafez/TechMood_TM_FRONTEND_L03_Project_01)
+"View Website" (https://alaanafez.github.io/TechMood_TM_FRONTEND_L03_Project_01/)
